@@ -11,7 +11,7 @@ import java.util.*;
 import java.lang.System;
 
 
-// wildcard não importa sub-pacotes, tem que ir até o ultimo nível de pacotes
+// wildcard não importa sub-pacotes, tem que ir até o ultimo nível de pacote
 //para então importar as classes do pacote
 
 //não pode utilizar dois wildcards no mesmo import
@@ -22,7 +22,7 @@ import java.lang.System;
 
 //em conflito de nome de nome,caso um dos imports vá até o nível da classe
 // a jvm considera que essa classe é a que sera instanciada/usada
-//caso tenha conflito tem que usar o caminho do pacote para definir o atributo: linha 32 
+//caso tenha conflito tem que usar o caminho do pacote para definir o atributo: linha 38 
 import java.util.Date; 
 import java.sql.Date;
 
