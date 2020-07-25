@@ -17,7 +17,10 @@ public class DestruindoObjetos {
 	public static void main(String arg[]) {
 		new DestruindoObjetos();
 		new Escopo();
+		System.gc();
 	}
+	
+
 }
 
 class Escopo{
@@ -34,14 +37,13 @@ class Escopo{
 		 */
 		String tres = um; //tres também passa a apontar para b 
 		um = null;
-		System.gc();
 	}
 	
 	
-	 String finalize = "Quando o Garbage Collection coleta um objeto "
-	 		+ "ele chama o método finalize()."
-	 		+"que pode ser implementado dentro da classe, "
-	 		+ "e nunca é chamado mais de uma vez";
+	 String finalize = "\nQuando o Garbage Collection coleta um objeto\n"
+	 		+ "ele chama o método finalize().\n"
+	 		+"que pode ser implementado dentro da classe,\n"
+	 		+ "e nunca é chamado mais de uma vez\n";
 	 		
 	  protected void finalize() {
 		  System.out.println(finalize);
