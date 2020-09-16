@@ -1,4 +1,4 @@
-package blocosDeConstrucao;
+package p3d50.oca.blocosdeconstrucao.estruturadeumaclasse;
 
 /*
  * Exemplo da estrutura de uma classe

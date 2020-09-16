@@ -1,5 +1,5 @@
 //definição do pacote ao qual a classe pertence
-package blocosDeConstrucao;
+package p3d50.oca.blocosdeconstrucao.pasotes;
 
 //importando a classe ArrayList
 import java.util.ArrayList;
@@ -24,7 +24,9 @@ import java.lang.System;
 // a jvm considera que essa classe é a que sera instanciada/usada
 //caso tenha conflito tem que usar o caminho do pacote para definir o atributo: linha 38 
 import java.util.Date; 
-import java.sql.Date;
+//import java.sql.Date;
+
+import p3d50.oca.blocosdeconstrucao.estruturadeumaclasse.Animal;
 
 /*Compilando de Executando
  * Compilando:em linha de comando caso uma classe ou mais tenha dependencia em

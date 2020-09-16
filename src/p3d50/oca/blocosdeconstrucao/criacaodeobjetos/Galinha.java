@@ -1,4 +1,6 @@
-package blocosDeConstrucao;
+package p3d50.oca.blocosdeconstrucao.criacaodeobjetos;
+
+import p3d50.oca.blocosdeconstrucao.estruturadeumaclasse.Animal;
 
 /*
  * Aula sobre criação de objetos
@@ -15,8 +17,8 @@ public class Galinha extends Animal {
 		this.nome = "Pintadinha";
 	}
 	
-	//caso nenhum construtor seja definido explicitamento é gerado um construtor default que não recebe parâmetro
-	//caso definido explicitamento um construtor que recebe parâmetro o construtor default não é gerado
+	//caso nenhum construtor seja definido explicitamente é gerado um construtor default que não recebe parâmetro
+	//caso definido explicitamente um construtor que recebe parâmetro o construtor default não é gerado
 
 	public static void main(String arg[]) {
 		Galinha galinha = new Galinha();
@@ -24,6 +26,8 @@ public class Galinha extends Animal {
 		System.out.println("Galinha "+galinha.nome+", tem "+galinha.numOvos+" ovos ");//lendo variável de instancia
 	}
 	
+	
+	//bloco de instância
 	{System.out.println("bloco inicializador de instânvcia, dentro do escopo da classe");}
 	// em blocos de inicialização de instância atentar se os atributos utilizados já foram inicializados
 	

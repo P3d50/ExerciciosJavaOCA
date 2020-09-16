@@ -1,4 +1,4 @@
-package declaracaoeinicializacaodevariaveis;
+package p3d50.oca.blocosdeconstrucao.declaracaoeinicializacaodevariaveis;
 
 public class InicializacaoDeVariaveis {
 	

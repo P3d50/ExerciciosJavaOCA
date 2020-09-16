@@ -1,4 +1,4 @@
-package ordemdoselementos;
+package p3d50.oca.blocosdecontrucao.ordemdoselementos;
 
 public class OrdemDosElementos {
 	

@@ -1,4 +1,4 @@
-package destruindoobjetos;
+package p3d50.oca.blocosdeconstrucao.destruindoobjetos;
 
 public class DestruindoObjetos {
 	
